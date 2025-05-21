@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varooj Cafe</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="/public/css/setting.css">
+</head>
+<body>
+    <!--make a website-->
+     <main class="wraper backgroundSite">
+        <!-- make logo-->
+        <div class="logo">
+            <img class="logoImg mt-8"  src="./public/img/welcome logo/varoj.png" alt="Loading ...">
+        </div>
+        <!--end make logo-->
+
+        <!--make welcome-->
+        <section class="w-full flex justify-center items-center mt-5">
+            <div class=" w-full  h-[30px] flex items-center justify-center ">
+                <div class="w-[90%] h-[90%] flex items-center justify-center">
+                   <p id="welcome" class="welcometxt"></p>
+                </div>
+             </div>
+        </section>
+        <!--end make welcome-->
+
+        <!--make cafe menu-->
+        <section class="w-full flex justify-center items-center mt-10">
+            <div class="MenusStyle w-[45%] max-w-[200px] h-[30px] flex items-center justify-center rounded-[10px]">
+                <div class="w-[90%] h-[90%] flex items-center justify-center">
+                   <a class="cafetxt" href="/html/CafeMenu.html">Cafe Menu</a>
+                </div>
+             </div>
+        </section>
+        <!--end make cafe menu-->
+
+        <!--make fastfood menu-->
+        <section class="w-full flex justify-center items-center mt-16">
+            <div class="MenusStyle w-[45%] max-w-[200px] h-[30px] flex items-center justify-center rounded-[10px]">
+                <div class="w-[90%] h-[90%] flex items-center justify-center">
+                   <a class="fastFoodtxt" href="/html/FastFoodMenu.html">FastFood Menu</a>
+                </div>
+             </div>
+        </section>
+        <!--end make fastfood menu-->
+
+        <!--make break fast menu-->
+        <section class="w-full flex justify-center items-center mt-16">
+            <div class="MenusStyle w-[45%] max-w-[200px] h-[30px] flex items-center justify-center rounded-[10px]">
+                <div class="w-[90%] h-[90%] flex items-center justify-center">
+                   <a id="breakeFarst" class="fastFoodtxt" href="/html/breakFast.html">BreakFast Menu</a>
+                </div>
+             </div>
+        </section>
+        <!--end make break fast menu-->
+
+        <!--cafe location-->
+            <div class="w-full flex justify-center items-center mt-[60px]">
+                <img class="w-7 object-cover cursor-pointer" src="./public/img/Location/icons8-location-64 (1).png" alt="loading..." loading="lazy">
+                <p class="location font-[CustomFont] text-[#C0B283] decoration-slice underline cursor-pointer">Tap Here To See Location... </p>
+            </div>
+        <!--end cafe location-->
+        <a href="/html/adminCategory.html" class="font-sans text-yellow-50" >admin</a>
+     </main>
+    <!--end make a website-->
+
+    <!--scripts-->
+    <script src="/public/src/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+   const type = new Typed('#welcome', {
+    strings: ['Welcome To Varoj Cafe...' ],
+    typeSpeed: 120,
+    backSpeed: 30,
+    loop: true
+  });
+    </script>  
+     <!--end scripts-->
+</body>
+</html>

@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+
+
+
+@layer{
+    .backgroundSite {
+        @apply  pb-6 bg-black h-[100vh]
+    }
+    .logo{
+        @apply w-full flex justify-center h-[200px]  
+    }
+    .logoImg{
+        @apply w-[50%] h-[100%] object-scale-down 
+    }
+    .swiperHW{
+        @apply w-14 h-14
+    }
+    .scrollMenu{
+        @apply w-[27%] max-w-[110px]  h-full overflow-scroll flex flex-wrap gap-4  bg-[#E8C999] fixed
+    }
+    .itemsStyle{
+        @apply w-full h-[100px] rounded-sm flex flex-wrap items-center justify-center 
+    }
+    .ithemTxt{
+        @apply text-[#603601] font-[itemsFont]  
+    }
+    .slideStyle{
+        @apply w-[96%] h-[170px] bg-[#E6E6E6] mt-4 rounded-lg flex items-center justify-between flex-wrap
+    }
+    .fatherStyle{
+        @apply w-full h-full flex justify-center flex-wrap
+    }
+    .breakeFastLogo{
+        @apply w-full h-[150px] flex items-center justify-center fixed mt-[-160px] pt-4 pb-5 bg-[#06202B]
+    }
+    .cafeHeader{
+        @apply w-[96%] h-[50px] bg-[#CC9544] rounded-lg flex items-center justify-center mt-4
+    }
+    .bodyAdminLogin{
+        @apply  bg-black bg-[url(/public/img/admin/login/login2.jpg)] bg-cover
+    }
+    .mainAdminLogin{
+        @apply w-full h-[100dvh] flex items-center justify-center
+    }
+    .formAdminLogin{
+        @apply w-[85%] h-[420px] bg-[rgba(255,255,255,0.1)] flex items-center justify-around flex-wrap p-5 max-w-[460px] border-[2px] border-[rgba(255,255,255,0.3)] rounded-md shadow-2xl backdrop-blur-[4px]
+    }
+    .adminLoginHeader{
+        @apply font-black text-white font-sans text-2xl w-full text-center 
+    }
+    .inputLogin{
+        @apply w-full h-10 bg-[rgba(255,255,255,0.17)] rounded-sm pl-3 text-white
+    }
+    .loginBtn{
+        @apply w-full h-12 bg-white text-black text-center rounded-sm font-bold cursor-pointer
+    }
+    .lableLogin{
+        @apply text-white text-sm
+    }
+    .bfn_f{
+        @apply w-3/6 h-full flex items-center justify-center bg-[rgba(255,255,255,0.13)] backdrop-blur-sm  border-[rgba(255,255,255,0.23)] hover:backdrop-blur-lg
+    }
+    .btn{
+        @apply w-[90%] h-11 bg-[rgba(255,255,255,0.33)] max-w-[210px] rounded-xl text-gray-900 cursor-pointer
+    }
+    .main_btn{
+        @apply w-full h-[100dvh] flex justify-center items-center
+    }
+}
+
+@font-face {
+    font-family: CustomFont;
+    src: url(/public/fonts/PlaywriteAUSA-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: itemsFont;
+    src: url(/public/fonts/ComicRelief-Regular.ttf);
+}

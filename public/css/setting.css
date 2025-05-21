@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.MenusStyle{
+    border: 2px solid rgba(72, 53, 5, 0.5);
+}
+.fastFoodtxt , .cafetxt , .welcometxt{
+    color: #cead64;
+    font-family: CustomFont;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+@font-face {
+    font-family: CustomFont;
+    src: url(/public/fonts/PlaywriteAUSA-VariableFont_wght.ttf);
+}
